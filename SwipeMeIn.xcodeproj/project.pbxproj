@@ -14,6 +14,8 @@
 		16DB36A022D38F2F00AD02C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DB369F22D38F2F00AD02C6 /* Assets.xcassets */; };
 		16DB36A322D38F2F00AD02C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB36A122D38F2F00AD02C6 /* LaunchScreen.storyboard */; };
 		16DB36AD22D394B600AD02C6 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */; };
+		16DB36AF22D39C3200AD02C6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */; };
+		16DB36B322D39C4C00AD02C6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		16DB36A222D38F2F00AD02C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16DB36A422D38F2F00AD02C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
+		16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */,
+				16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */,
+				16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -160,6 +166,8 @@
 			files = (
 				16DB369822D38F2D00AD02C6 /* WelcomeViewController.swift in Sources */,
 				16DB369622D38F2D00AD02C6 /* AppDelegate.swift in Sources */,
+				16DB36AF22D39C3200AD02C6 /* SignUpViewController.swift in Sources */,
+				16DB36B322D39C4C00AD02C6 /* SignInViewController.swift in Sources */,
 				16DB369E22D38F2D00AD02C6 /* SwipeMeIn.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
