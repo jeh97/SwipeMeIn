@@ -1,0 +1,28 @@
+PODS:
+  - SideMenu (5.0.3)
+  - SideMenuSwift (2.0.1)
+  - SkyFloatingLabelTextField (3.7.0)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - SideMenu
+  - SideMenuSwift
+  - SkyFloatingLabelTextField (~> 3.0)
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SideMenu
+    - SideMenuSwift
+    - SkyFloatingLabelTextField
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SideMenuSwift: 588374781f2508f551a41796482290aeff1afd78
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: f98880ed761a3ba872ca0d412713aaae1491386a
+
+COCOAPODS: 1.6.1

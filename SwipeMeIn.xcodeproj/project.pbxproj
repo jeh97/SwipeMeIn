@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1631D6CE22D52F5C00785905 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631D6CD22D52F5C00785905 /* FontAwesome.swift */; };
+		1631D6D022D52F6C00785905 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631D6CF22D52F6C00785905 /* Enum.swift */; };
+		16D0374422D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374322D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift */; };
+		16D0374622D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374522D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift */; };
+		16D0374822D7AB950013F666 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */; };
+		16D0374B22D7AC0F0013F666 /* DrawerMenuEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374A22D7AC0F0013F666 /* DrawerMenuEntry.swift */; };
+		16D0374D22D7AC360013F666 /* DrawerMenuLogoutEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374C22D7AC360013F666 /* DrawerMenuLogoutEntry.swift */; };
+		16D0374F22D7AC490013F666 /* DrawerMenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374E22D7AC490013F666 /* DrawerMenuSection.swift */; };
+		16D0375122D7AC6C0013F666 /* DrawerMenuSegueEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0375022D7AC6C0013F666 /* DrawerMenuSegueEntry.swift */; };
+		16D0375322D7ACF00013F666 /* DrawerMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0375222D7ACF00013F666 /* DrawerMenuCell.swift */; };
 		16DB369622D38F2D00AD02C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB369522D38F2D00AD02C6 /* AppDelegate.swift */; };
 		16DB369822D38F2D00AD02C6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */; };
 		16DB369B22D38F2D00AD02C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB369922D38F2D00AD02C6 /* Main.storyboard */; };
@@ -16,9 +26,29 @@
 		16DB36AD22D394B600AD02C6 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */; };
 		16DB36AF22D39C3200AD02C6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */; };
 		16DB36B322D39C4C00AD02C6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */; };
+		16E847EE22D6623D007D8CBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E847ED22D6623D007D8CBB /* HomeViewController.swift */; };
+		16E847F022D66251007D8CBB /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E847EF22D66251007D8CBB /* ScheduleViewController.swift */; };
+		16E847F222D66264007D8CBB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E847F122D66264007D8CBB /* ProfileViewController.swift */; };
+		16E847F522D67311007D8CBB /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1631D6D222D52FA400785905 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		16E847F622D67311007D8CBB /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1631D6D322D52FA400785905 /* Font Awesome 5 Free-Regular-400.otf */; };
+		16E847F722D67311007D8CBB /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1631D6D422D52FA400785905 /* Font Awesome 5 Free-Solid-900.otf */; };
+		C0790C04ED12035ED5942B22 /* Pods_SwipeMeIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3038F1719B63D53E8707601D /* Pods_SwipeMeIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1631D6CD22D52F5C00785905 /* FontAwesome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		1631D6CF22D52F6C00785905 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		1631D6D222D52FA400785905 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "../../../../../../RepresentsMe/RepresentsMe/Sources/FontAwesome/Fonts/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		1631D6D322D52FA400785905 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Free-Regular-400.otf"; path = "../../../../../../RepresentsMe/RepresentsMe/Sources/FontAwesome/Fonts/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		1631D6D422D52FA400785905 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Free-Solid-900.otf"; path = "../../../../../../RepresentsMe/RepresentsMe/Sources/FontAwesome/Fonts/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		16D0374322D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuTableViewDataSource.swift; sourceTree = "<group>"; };
+		16D0374522D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuTableViewDelegate.swift; sourceTree = "<group>"; };
+		16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		16D0374A22D7AC0F0013F666 /* DrawerMenuEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuEntry.swift; sourceTree = "<group>"; };
+		16D0374C22D7AC360013F666 /* DrawerMenuLogoutEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuLogoutEntry.swift; sourceTree = "<group>"; };
+		16D0374E22D7AC490013F666 /* DrawerMenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuSection.swift; sourceTree = "<group>"; };
+		16D0375022D7AC6C0013F666 /* DrawerMenuSegueEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuSegueEntry.swift; sourceTree = "<group>"; };
+		16D0375222D7ACF00013F666 /* DrawerMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuCell.swift; sourceTree = "<group>"; };
 		16DB369222D38F2D00AD02C6 /* SwipeMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DB369522D38F2D00AD02C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +60,12 @@
 		16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
 		16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		16E847ED22D6623D007D8CBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		16E847EF22D66251007D8CBB /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		16E847F122D66264007D8CBB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3038F1719B63D53E8707601D /* Pods_SwipeMeIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeMeIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4D3F6B8F349BA84935EED0 /* Pods-SwipeMeIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMeIn.debug.xcconfig"; path = "Target Support Files/Pods-SwipeMeIn/Pods-SwipeMeIn.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F4F05EB0B8D57DF2A95D6F /* Pods-SwipeMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMeIn.release.xcconfig"; path = "Target Support Files/Pods-SwipeMeIn/Pods-SwipeMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +73,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0790C04ED12035ED5942B22 /* Pods_SwipeMeIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07693B43D397D387EA4F4ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E4D3F6B8F349BA84935EED0 /* Pods-SwipeMeIn.debug.xcconfig */,
+				F1F4F05EB0B8D57DF2A95D6F /* Pods-SwipeMeIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1631D6CB22D52F3C00785905 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1631D6CC22D52F4100785905 /* FontAwesome */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1631D6CC22D52F4100785905 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				1631D6CD22D52F5C00785905 /* FontAwesome.swift */,
+				1631D6CF22D52F6C00785905 /* Enum.swift */,
+				1631D6D122D52F7A00785905 /* Fonts */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		1631D6D122D52F7A00785905 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1631D6D222D52FA400785905 /* Font Awesome 5 Brands-Regular-400.otf */,
+				1631D6D322D52FA400785905 /* Font Awesome 5 Free-Regular-400.otf */,
+				1631D6D422D52FA400785905 /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		16D0373022D79F500013F666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16D0375222D7ACF00013F666 /* DrawerMenuCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16D0373322D7A0A70013F666 /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				16D0374922D7ABEB0013F666 /* DrawerMenuSection */,
+				16D0374322D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift */,
+				16D0374522D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift */,
+				16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		16D0374922D7ABEB0013F666 /* DrawerMenuSection */ = {
+			isa = PBXGroup;
+			children = (
+				16D0374A22D7AC0F0013F666 /* DrawerMenuEntry.swift */,
+				16D0374C22D7AC360013F666 /* DrawerMenuLogoutEntry.swift */,
+				16D0374E22D7AC490013F666 /* DrawerMenuSection.swift */,
+				16D0375022D7AC6C0013F666 /* DrawerMenuSegueEntry.swift */,
+			);
+			path = DrawerMenuSection;
+			sourceTree = "<group>";
+		};
 		16DB368922D38F2D00AD02C6 = {
 			isa = PBXGroup;
 			children = (
 				16DB369422D38F2D00AD02C6 /* SwipeMeIn */,
 				16DB369322D38F2D00AD02C6 /* Products */,
+				07693B43D397D387EA4F4ED6 /* Pods */,
+				AB43C4EAE303F8745F92647D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +168,8 @@
 		16DB369422D38F2D00AD02C6 /* SwipeMeIn */ = {
 			isa = PBXGroup;
 			children = (
+				16D0373022D79F500013F666 /* Views */,
+				1631D6CB22D52F3C00785905 /* Utilities */,
 				16DB369522D38F2D00AD02C6 /* AppDelegate.swift */,
 				16DB36AB22D3938700AD02C6 /* ViewControllers */,
 				16DB36AA22D3937C00AD02C6 /* InterfaceBuilder */,
@@ -88,8 +196,20 @@
 				16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */,
 				16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */,
 				16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */,
+				16E847ED22D6623D007D8CBB /* HomeViewController.swift */,
+				16E847EF22D66251007D8CBB /* ScheduleViewController.swift */,
+				16E847F122D66264007D8CBB /* ProfileViewController.swift */,
+				16D0373322D7A0A70013F666 /* DrawerMenu */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB43C4EAE303F8745F92647D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3038F1719B63D53E8707601D /* Pods_SwipeMeIn.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16DB36A722D38F2F00AD02C6 /* Build configuration list for PBXNativeTarget "SwipeMeIn" */;
 			buildPhases = (
+				2858F3D0DF042A637ADF4484 /* [CP] Check Pods Manifest.lock */,
 				16DB368E22D38F2D00AD02C6 /* Sources */,
 				16DB368F22D38F2D00AD02C6 /* Frameworks */,
 				16DB369022D38F2D00AD02C6 /* Resources */,
+				18FF45FFC357F3D765AE8694 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E847F522D67311007D8CBB /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				16E847F622D67311007D8CBB /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				16E847F722D67311007D8CBB /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 				16DB36AD22D394B600AD02C6 /* WelcomeViewController.storyboard in Resources */,
 				16DB36A322D38F2F00AD02C6 /* LaunchScreen.storyboard in Resources */,
 				16DB36A022D38F2F00AD02C6 /* Assets.xcassets in Resources */,
@@ -159,6 +284,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18FF45FFC357F3D765AE8694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeMeIn/Pods-SwipeMeIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenuSwift/SideMenuSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeMeIn/Pods-SwipeMeIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2858F3D0DF042A637ADF4484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeMeIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16DB368E22D38F2D00AD02C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,8 +344,21 @@
 			files = (
 				16DB369822D38F2D00AD02C6 /* WelcomeViewController.swift in Sources */,
 				16DB369622D38F2D00AD02C6 /* AppDelegate.swift in Sources */,
+				16D0374822D7AB950013F666 /* DrawerMenuViewController.swift in Sources */,
+				16D0374622D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift in Sources */,
+				16E847F222D66264007D8CBB /* ProfileViewController.swift in Sources */,
+				16D0374B22D7AC0F0013F666 /* DrawerMenuEntry.swift in Sources */,
 				16DB36AF22D39C3200AD02C6 /* SignUpViewController.swift in Sources */,
+				16D0375122D7AC6C0013F666 /* DrawerMenuSegueEntry.swift in Sources */,
+				16E847F022D66251007D8CBB /* ScheduleViewController.swift in Sources */,
+				16E847EE22D6623D007D8CBB /* HomeViewController.swift in Sources */,
 				16DB36B322D39C4C00AD02C6 /* SignInViewController.swift in Sources */,
+				1631D6D022D52F6C00785905 /* Enum.swift in Sources */,
+				16D0374F22D7AC490013F666 /* DrawerMenuSection.swift in Sources */,
+				16D0374D22D7AC360013F666 /* DrawerMenuLogoutEntry.swift in Sources */,
+				1631D6CE22D52F5C00785905 /* FontAwesome.swift in Sources */,
+				16D0375322D7ACF00013F666 /* DrawerMenuCell.swift in Sources */,
+				16D0374422D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift in Sources */,
 				16DB369E22D38F2D00AD02C6 /* SwipeMeIn.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +503,7 @@
 		};
 		16DB36A822D38F2F00AD02C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4D3F6B8F349BA84935EED0 /* Pods-SwipeMeIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -330,6 +522,7 @@
 		};
 		16DB36A922D38F2F00AD02C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F4F05EB0B8D57DF2A95D6F /* Pods-SwipeMeIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
