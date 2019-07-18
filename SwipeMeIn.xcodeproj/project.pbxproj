@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1631D6CE22D52F5C00785905 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631D6CD22D52F5C00785905 /* FontAwesome.swift */; };
 		1631D6D022D52F6C00785905 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631D6CF22D52F6C00785905 /* Enum.swift */; };
+		1650899522E0E02D002AD61A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1650899422E0E02D002AD61A /* awsconfiguration.json */; };
 		16D0374422D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374322D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift */; };
 		16D0374622D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374522D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift */; };
 		16D0374822D7AB950013F666 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */; };
@@ -17,6 +18,9 @@
 		16D0374F22D7AC490013F666 /* DrawerMenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0374E22D7AC490013F666 /* DrawerMenuSection.swift */; };
 		16D0375122D7AC6C0013F666 /* DrawerMenuSegueEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0375022D7AC6C0013F666 /* DrawerMenuSegueEntry.swift */; };
 		16D0375322D7ACF00013F666 /* DrawerMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0375222D7ACF00013F666 /* DrawerMenuCell.swift */; };
+		16DAB3FE22DF8FAF004A490B /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAB3FD22DF8FAF004A490B /* Welcome.storyboard */; };
+		16DAB40022DF9081004A490B /* BuySell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAB3FF22DF9081004A490B /* BuySell.storyboard */; };
+		16DAB40222DF995B004A490B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAB40122DF995B004A490B /* Users.swift */; };
 		16DB369622D38F2D00AD02C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB369522D38F2D00AD02C6 /* AppDelegate.swift */; };
 		16DB369822D38F2D00AD02C6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */; };
 		16DB369B22D38F2D00AD02C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB369922D38F2D00AD02C6 /* Main.storyboard */; };
@@ -41,6 +45,7 @@
 		1631D6D222D52FA400785905 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "../../../../../../RepresentsMe/RepresentsMe/Sources/FontAwesome/Fonts/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		1631D6D322D52FA400785905 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Free-Regular-400.otf"; path = "../../../../../../RepresentsMe/RepresentsMe/Sources/FontAwesome/Fonts/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
 		1631D6D422D52FA400785905 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Free-Solid-900.otf"; path = "../../../../../../RepresentsMe/RepresentsMe/Sources/FontAwesome/Fonts/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		1650899422E0E02D002AD61A /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		16D0374322D7AB1B0013F666 /* DrawerMenuTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuTableViewDataSource.swift; sourceTree = "<group>"; };
 		16D0374522D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuTableViewDelegate.swift; sourceTree = "<group>"; };
 		16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		16D0374E22D7AC490013F666 /* DrawerMenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuSection.swift; sourceTree = "<group>"; };
 		16D0375022D7AC6C0013F666 /* DrawerMenuSegueEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuSegueEntry.swift; sourceTree = "<group>"; };
 		16D0375222D7ACF00013F666 /* DrawerMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuCell.swift; sourceTree = "<group>"; };
+		16DAB3FD22DF8FAF004A490B /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		16DAB3FF22DF9081004A490B /* BuySell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuySell.storyboard; sourceTree = "<group>"; };
+		16DAB40122DF995B004A490B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		16DB369222D38F2D00AD02C6 /* SwipeMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DB369522D38F2D00AD02C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1631D6CC22D52F4100785905 /* FontAwesome */,
+				16DAB40122DF995B004A490B /* Users.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -168,13 +177,14 @@
 		16DB369422D38F2D00AD02C6 /* SwipeMeIn */ = {
 			isa = PBXGroup;
 			children = (
+				16DB369522D38F2D00AD02C6 /* AppDelegate.swift */,
 				16D0373022D79F500013F666 /* Views */,
 				1631D6CB22D52F3C00785905 /* Utilities */,
-				16DB369522D38F2D00AD02C6 /* AppDelegate.swift */,
 				16DB36AB22D3938700AD02C6 /* ViewControllers */,
 				16DB36AA22D3937C00AD02C6 /* InterfaceBuilder */,
 				16DB369F22D38F2F00AD02C6 /* Assets.xcassets */,
 				16DB36A422D38F2F00AD02C6 /* Info.plist */,
+				1650899422E0E02D002AD61A /* awsconfiguration.json */,
 				16DB369C22D38F2D00AD02C6 /* SwipeMeIn.xcdatamodeld */,
 			);
 			path = SwipeMeIn;
@@ -186,6 +196,8 @@
 				16DB369922D38F2D00AD02C6 /* Main.storyboard */,
 				16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */,
 				16DB36A122D38F2F00AD02C6 /* LaunchScreen.storyboard */,
+				16DAB3FD22DF8FAF004A490B /* Welcome.storyboard */,
+				16DAB3FF22DF9081004A490B /* BuySell.storyboard */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -272,11 +284,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1650899522E0E02D002AD61A /* awsconfiguration.json in Resources */,
+				16DAB40022DF9081004A490B /* BuySell.storyboard in Resources */,
 				16E847F522D67311007D8CBB /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				16E847F622D67311007D8CBB /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				16E847F722D67311007D8CBB /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 				16DB36AD22D394B600AD02C6 /* WelcomeViewController.storyboard in Resources */,
 				16DB36A322D38F2F00AD02C6 /* LaunchScreen.storyboard in Resources */,
+				16DAB3FE22DF8FAF004A490B /* Welcome.storyboard in Resources */,
 				16DB36A022D38F2F00AD02C6 /* Assets.xcassets in Resources */,
 				16DB369B22D38F2D00AD02C6 /* Main.storyboard in Resources */,
 			);
@@ -294,6 +309,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwipeMeIn/Pods-SwipeMeIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenuSwift/SideMenuSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
@@ -303,6 +324,12 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
@@ -347,6 +374,7 @@
 				16D0374822D7AB950013F666 /* DrawerMenuViewController.swift in Sources */,
 				16D0374622D7AB5C0013F666 /* DrawerMenuTableViewDelegate.swift in Sources */,
 				16E847F222D66264007D8CBB /* ProfileViewController.swift in Sources */,
+				16DAB40222DF995B004A490B /* Users.swift in Sources */,
 				16D0374B22D7AC0F0013F666 /* DrawerMenuEntry.swift in Sources */,
 				16DB36AF22D39C3200AD02C6 /* SignUpViewController.swift in Sources */,
 				16D0375122D7AC6C0013F666 /* DrawerMenuSegueEntry.swift in Sources */,

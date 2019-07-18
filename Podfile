@@ -7,8 +7,11 @@ target 'SwipeMeIn' do
 
   # Pods for SwipeMeIn
   pod 'SkyFloatingLabelTextField', '~> 3.0'
-  pod 'TextFieldEffects'
-  pod 'SideMenu'
-  pod 'SideMenuSwift'
+  pod 'TextFieldEffects', '~> 1.6.0'
+  pod 'SideMenu', '~> 5.0.3'
+  pod 'SideMenuSwift', '~> 2.0.1'
+  pod 'AWSDynamoDB', '~> 2.9.10'
+  pod 'AWSMobileClient', '~> 2.9.10'
+  pod 'AWSCore', '~> 2.9.10'
 
 end

@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import AWSMobileClient
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,11 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        self.window?.rootViewController = WelcomeViewController()
-//        self.window?.makeKeyAndVisible()
-
-        return true
+        return AWSMobileClient.sharedInstance().interceptApplication(application, didFinishLaunchingWithOptions: launchOptions)
+//        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
