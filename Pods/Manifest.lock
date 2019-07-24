@@ -1,4 +1,8 @@
 PODS:
+  - AWSAppSync (2.12.2):
+    - AWSCore (~> 2.9.0)
+    - ReachabilitySwift (= 4.3.0)
+    - SQLite.swift (= 0.11.6)
   - AWSAuthCore (2.9.10):
     - AWSCore (= 2.9.10)
   - AWSCognitoIdentityProvider (2.9.10):
@@ -11,12 +15,17 @@ PODS:
   - AWSMobileClient (2.9.10):
     - AWSAuthCore (= 2.9.10)
     - AWSCognitoIdentityProvider (= 2.9.10)
+  - ReachabilitySwift (4.3.0)
   - SideMenu (5.0.3)
   - SideMenuSwift (2.0.1)
   - SkyFloatingLabelTextField (3.7.0)
+  - SQLite.swift (0.11.6):
+    - SQLite.swift/standard (= 0.11.6)
+  - SQLite.swift/standard (0.11.6)
   - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
+  - AWSAppSync (~> 2.12.0)
   - AWSCore (~> 2.9.10)
   - AWSDynamoDB (~> 2.9.10)
   - AWSMobileClient (~> 2.9.10)
@@ -27,29 +36,35 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AWSAppSync
     - AWSAuthCore
     - AWSCognitoIdentityProvider
     - AWSCognitoIdentityProviderASF
     - AWSCore
     - AWSDynamoDB
     - AWSMobileClient
+    - ReachabilitySwift
     - SideMenu
     - SideMenuSwift
     - SkyFloatingLabelTextField
+    - SQLite.swift
     - TextFieldEffects
 
 SPEC CHECKSUMS:
+  AWSAppSync: 0b5c81db1138faa85de8737a5bcdf77fa9add620
   AWSAuthCore: d6d222a7eeae403f968afb5b9b3975bd96340d91
   AWSCognitoIdentityProvider: 5e72467f174a970e9d357fc06666e3f32e6eda70
   AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
   AWSCore: 22b6bbc6761ca9981d878155d11bc02edd681a64
   AWSDynamoDB: 87d0b2f44fc85f719921ad2df0dcc4c31c9be96a
   AWSMobileClient: a0768be5b34a5a2eb39fd3fcd5d4f14125d4ebbb
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
   SideMenuSwift: 588374781f2508f551a41796482290aeff1afd78
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SQLite.swift: 46d890be8601964454bd3392527f863d1b802d45
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 24186f62956dc09db3d288c64d5fa7ab9912cd8b
+PODFILE CHECKSUM: 5b43b0ad7070fb8014db81fa5c54699832fad426
 
 COCOAPODS: 1.6.1

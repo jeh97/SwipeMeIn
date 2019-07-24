@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "swipemein",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authswipemeinf1a76c67",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

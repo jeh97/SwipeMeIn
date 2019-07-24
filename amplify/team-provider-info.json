@@ -1,0 +1,19 @@
+{
+    "jacobsmac": {
+        "awscloudformation": {
+            "AuthRoleName": "swipemein-jacobsmac-20190718131855-authRole",
+            "UnauthRoleArn": "arn:aws:iam::770251447256:role/swipemein-jacobsmac-20190718131855-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::770251447256:role/swipemein-jacobsmac-20190718131855-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "swipemein-jacobsmac-20190718131855-deployment",
+            "UnauthRoleName": "swipemein-jacobsmac-20190718131855-unauthRole",
+            "StackName": "swipemein-jacobsmac-20190718131855",
+            "StackId": "arn:aws:cloudformation:us-east-1:770251447256:stack/swipemein-jacobsmac-20190718131855/813ee560-a988-11e9-a4e7-0a522351f81e"
+        },
+        "categories": {
+            "auth": {
+                "swipemeinf1a76c67": {}
+            }
+        }
+    }
+}

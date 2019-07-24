@@ -1,0 +1,43 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateTask($input: CreateTaskInput!) {
+  createTask(input: $input) {
+    id
+    title
+    description
+    status
+  }
+}
+mutation UpdateTask($input: UpdateTaskInput!) {
+  updateTask(input: $input) {
+    id
+    title
+    description
+    status
+  }
+}
+mutation DeleteTask($input: DeleteTaskInput!) {
+  deleteTask(input: $input) {
+    id
+    title
+    description
+    status
+  }
+}
+mutation CreatePrivateNote($input: CreatePrivateNoteInput!) {
+  createPrivateNote(input: $input) {
+    id
+    content
+  }
+}
+mutation UpdatePrivateNote($input: UpdatePrivateNoteInput!) {
+  updatePrivateNote(input: $input) {
+    id
+    content
+  }
+}
+mutation DeletePrivateNote($input: DeletePrivateNoteInput!) {
+  deletePrivateNote(input: $input) {
+    id
+    content
+  }
+}

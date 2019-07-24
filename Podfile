@@ -13,5 +13,6 @@ target 'SwipeMeIn' do
   pod 'AWSDynamoDB', '~> 2.9.10'
   pod 'AWSMobileClient', '~> 2.9.10'
   pod 'AWSCore', '~> 2.9.10'
+  pod 'AWSAppSync', '~> 2.12.0'
 
 end
