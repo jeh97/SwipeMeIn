@@ -16,12 +16,12 @@ class DrawerMenuViewController: UIViewController {
     @IBOutlet var NameLabel: UILabel!
     @IBOutlet var dollarsMadeLabel: UILabel!
     @IBOutlet var mealsDonatedLabel: UILabel!
+    @IBOutlet var homeView: UIView!
     @IBOutlet var myProfileView: UIView!
     @IBOutlet var walletView: UIView!
     @IBOutlet var settingsView: UIView!
     @IBOutlet var supportView: UIView!
     @IBOutlet var aboutView: UIView!
-    
 
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -34,13 +34,101 @@ class DrawerMenuViewController: UIViewController {
         super.viewWillAppear(animated)
 
         setupUserInfo()
+        setupGestureRecognizers()
     }
 
     func setupUserInfo() {
         profilePicImageView.image = DEFAULT_NOT_LOADED
     }
 
+    /// Add gesture recognizers to the various views in the menu.
+    func setupGestureRecognizers() {
+        let homeTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.homeTouchUp(_:)))
+        homeView.addGestureRecognizer(homeTapGesture)
+
+        let myProfileTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.myProfileTouchUp(_:)))
+        myProfileView.addGestureRecognizer(myProfileTapGesture)
+
+        let walletTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.walletTouchUp(_:)))
+        walletView.addGestureRecognizer(walletTapGesture)
+
+        let settingsTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.settingsTouchUp(_:)))
+        settingsView.addGestureRecognizer(settingsTapGesture)
+
+        let supportTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.supportTouchUp(_:)))
+        supportView.addGestureRecognizer(supportTapGesture)
+
+        let aboutTapGesture = UITapGestureRecognizer(target: self, action: #selector(self.aboutTouchUp(_:)))
+        aboutView.addGestureRecognizer(aboutTapGesture)
+
+    }
+
     // MARK: - Actions
+    /// When 'Home' is selected from menu, segue to the Home View Controller
+    @objc func homeTouchUp(_ gestureRecognizer : UITapGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        // Segue to home viewcontroller when tapped
+        if gestureRecognizer.state == .ended {
+            // TODO: Segue to home
+            print("HOME")
+        }
+    }
+
+    /// When 'My Profile' is selected from menu, segue to the My Profile View Controller
+    @objc func myProfileTouchUp(_ gestureRecognizer : UITapGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        // Segue to home viewcontroller when tapped
+        if gestureRecognizer.state == .ended {
+            // TODO: Segue to home
+            print("MY PROFILE")
+        }
+    }
+
+    /// When 'Wallet' is selected from menu, segue to the Wallet View Controller
+    @objc func walletTouchUp(_ gestureRecognizer : UITapGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        // Segue to home viewcontroller when tapped
+        if gestureRecognizer.state == .ended {
+            // TODO: Segue to home
+            print("Wallet")
+        }
+    }
+
+    /// When 'Settings' is selected from menu, segue to the Settings View Controller
+    @objc func settingsTouchUp(_ gestureRecognizer : UITapGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        // Segue to home viewcontroller when tapped
+        if gestureRecognizer.state == .ended {
+            // TODO: Segue to home
+            print("SETTINGS")
+        }
+    }
+
+    /// When 'Support' is selected from menu, segue to the Support View Controller
+    @objc func supportTouchUp(_ gestureRecognizer : UITapGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        // Segue to home viewcontroller when tapped
+        if gestureRecognizer.state == .ended {
+            // TODO: Segue to home
+            print("SUPPORT")
+        }
+    }
+
+    /// When 'About' is selected from menu, segue to the About View Controller
+    @objc func aboutTouchUp(_ gestureRecognizer : UITapGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        // Segue to home viewcontroller when tapped
+        if gestureRecognizer.state == .ended {
+            // TODO: Segue to home
+            print("ABOUT")
+        }
+    }
 
     // MARK: - Methods
 
