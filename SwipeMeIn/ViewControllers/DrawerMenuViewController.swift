@@ -8,41 +8,41 @@
 
 import UIKit
 
-class DrawerMenuViewController: UIViewController, UITableViewDelegate {
+class DrawerMenuViewController: UIViewController {
     // MARK: - Properties
-    var tableViewDataSource: DrawerMenuTableViewDataSource!
-    var tableViewDelegate: DrawerMenuTableViewDelegate!
 
     // MARK: - Outlets
-    @IBOutlet var tableView: UITableView!
-
+    @IBOutlet var profilePicImageView: UIImageView!
+    @IBOutlet var NameLabel: UILabel!
+    @IBOutlet var dollarsMadeLabel: UILabel!
+    @IBOutlet var mealsDonatedLabel: UILabel!
+    @IBOutlet var myProfileView: UIView!
+    @IBOutlet var walletView: UIView!
+    @IBOutlet var settingsView: UIView!
+    @IBOutlet var supportView: UIView!
+    @IBOutlet var aboutView: UIView!
+    
 
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Set the data source
-        self.tableViewDataSource = DrawerMenuTableViewDataSource(for: self)
-        tableView.dataSource = self.tableViewDataSource
-
-
-        // Set the delegate
-        self.tableViewDelegate = DrawerMenuTableViewDelegate(for: self)
-        tableView.delegate = self.tableViewDelegate
     }
 
     /// Sets up views when the view appears
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        /*tableView.frame = CGRect(x: tableView.frame.origin.x,
-         y: tableView.frame.origin.y,
-         width: tableView.frame.size.width,
-         height: tableView.contentSize.height)*/
-        tableView.reloadData()
+
+        setupUserInfo()
+    }
+
+    func setupUserInfo() {
+        profilePicImageView.image = DEFAULT_NOT_LOADED
     }
 
     // MARK: - Actions
 
+    // MARK: - Methods
 
     /*
      // MARK: - Navigation

@@ -19,6 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var appSyncClient: AWSAppSyncClient?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Welcome", bundle: nil)
+        let initialViewController = storyboard.instantiateInitialViewController()
+        self.window?.rootViewController = initialViewController
+        self.window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         do {
             // You can choose the directory in which AppSync stores its persistent cache databases

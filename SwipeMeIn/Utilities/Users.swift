@@ -9,6 +9,14 @@
 import Foundation
 import AWSDynamoDB
 
+/// Default image for users with no available profile picture
+let DEFAULT_NOT_LOADED = UIImage.fontAwesomeIcon(
+    name: .userCircle,
+    style: .solid,
+    textColor: .gray,
+    size: PORTRAIT_SIZE)
+let PORTRAIT_SIZE = CGSize(width: 100, height: 100)
+
 class Users: AWSDynamoDBObjectModel, AWSDynamoDBModeling {
     @objc var email:String?
     @objc var firstName:String?

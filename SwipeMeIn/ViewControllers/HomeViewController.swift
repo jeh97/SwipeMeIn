@@ -35,7 +35,7 @@ class HomeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setUpViews()
-        setUpSideMenus()
+//        setUpSideMenus()
 
 
     }
@@ -60,12 +60,14 @@ class HomeViewController: UIViewController {
         statsView.clipsToBounds = true
         statsView.layer.cornerRadius = 8.0
 
-        buySwipeButton.clipsToBounds = true
-        buySwipeButton.layer.cornerRadius = 8.0
+//        buySwipeButton.clipsToBounds = true
+//        buySwipeButton.layer.cornerRadius = 8.0
     }
 
     // MARK: - Actions
-    
+    @IBAction func menuButtonTouchUp(_ sender: Any) {
+    }
+
 
     /*
     // MARK: - Navigation
