@@ -24,32 +24,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eoZ-rJ-qqx">
-                                <rect key="frame" x="0.0" y="44" width="414" height="45"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="48"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELLER MENU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSr-ff-dKJ">
-                                        <rect key="frame" x="16" y="8" width="162" height="29"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vp2-h8-HWH">
-                                        <rect key="frame" x="377" y="8" width="21" height="24"/>
-                                        <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="24"/>
-                                        <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwipeEmptyBack" translatesAutoresizingMaskIntoConstraints="NO" id="Nin-BI-Zza">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="x36-8W-aCk"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="xSr-ff-dKJ" secondAttribute="bottom" constant="8" id="0je-kT-xjI"/>
-                                    <constraint firstItem="xSr-ff-dKJ" firstAttribute="leading" secondItem="eoZ-rJ-qqx" secondAttribute="leading" constant="16" id="1sL-L8-2RE"/>
-                                    <constraint firstItem="Vp2-h8-HWH" firstAttribute="top" secondItem="eoZ-rJ-qqx" secondAttribute="top" constant="8" id="8ao-pr-xS7"/>
-                                    <constraint firstItem="xSr-ff-dKJ" firstAttribute="top" secondItem="eoZ-rJ-qqx" secondAttribute="top" constant="8" id="d7Q-oB-QmT"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vp2-h8-HWH" secondAttribute="trailing" constant="16" id="tSn-1l-SPc"/>
+                                    <constraint firstAttribute="bottom" secondItem="Nin-BI-Zza" secondAttribute="bottom" id="AGm-s4-jdS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nin-BI-Zza" secondAttribute="trailing" id="ifx-SM-wNK"/>
+                                    <constraint firstItem="Nin-BI-Zza" firstAttribute="leading" secondItem="eoZ-rJ-qqx" secondAttribute="leading" id="mIZ-pD-mW1"/>
+                                    <constraint firstItem="Nin-BI-Zza" firstAttribute="top" secondItem="eoZ-rJ-qqx" secondAttribute="top" id="oXw-rF-0Up"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjB-xI-FHw">
-                                <rect key="frame" x="0.0" y="89" width="414" height="732"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="729"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhW-2w-4NU" userLabel="Profile View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="183"/>
@@ -155,19 +148,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iey-id-L0d" userLabel="Menu View">
-                                        <rect key="frame" x="0.0" y="183" width="414" height="216"/>
+                                        <rect key="frame" x="0.0" y="183" width="414" height="236"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9L-lK-VE3" userLabel="Home">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGa-aq-afi">
-                                                        <rect key="frame" x="0.0" y="8" width="54" height="28"/>
+                                                        <rect key="frame" x="0.0" y="8" width="54" height="33"/>
                                                         <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="28"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gD2-3E-KUi">
-                                                        <rect key="frame" x="54" y="10" width="344" height="24"/>
+                                                        <rect key="frame" x="54" y="12.5" width="344" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -185,16 +178,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4G-9W-l2I" userLabel="My Profile View">
-                                                <rect key="frame" x="0.0" y="52" width="414" height="44"/>
+                                                <rect key="frame" x="0.0" y="57" width="414" height="49"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="user-circle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKM-1k-cav">
-                                                        <rect key="frame" x="0.0" y="8" width="54" height="28"/>
+                                                        <rect key="frame" x="0.0" y="8" width="54" height="33"/>
                                                         <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="28"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY PROFILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se6-ol-Kic">
-                                                        <rect key="frame" x="54" y="10" width="344" height="24"/>
+                                                        <rect key="frame" x="54" y="12.5" width="344" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -212,16 +205,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fh8-XI-b4Q" userLabel="Wallet View">
-                                                <rect key="frame" x="0.0" y="104" width="414" height="44"/>
+                                                <rect key="frame" x="0.0" y="114" width="414" height="49"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="wallet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oam-Cl-qan">
-                                                        <rect key="frame" x="0.0" y="8" width="54" height="28"/>
+                                                        <rect key="frame" x="0.0" y="8" width="54" height="33"/>
                                                         <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="28"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WALLET" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Caf-3T-oVr">
-                                                        <rect key="frame" x="54" y="10" width="344" height="24"/>
+                                                        <rect key="frame" x="54" y="12.5" width="344" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -239,16 +232,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1E-sw-RC9" userLabel="Settings View">
-                                                <rect key="frame" x="0.0" y="156" width="414" height="44"/>
+                                                <rect key="frame" x="0.0" y="171" width="414" height="49"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="cog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ch-Fd-HAS">
-                                                        <rect key="frame" x="0.0" y="8" width="54" height="28"/>
+                                                        <rect key="frame" x="0.0" y="8" width="54" height="33"/>
                                                         <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="28"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SETTINGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCu-H1-iA3">
-                                                        <rect key="frame" x="54" y="10" width="344" height="24"/>
+                                                        <rect key="frame" x="54" y="12.5" width="344" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -284,7 +277,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MB7-sC-Zii" userLabel="Help View">
-                                        <rect key="frame" x="0.0" y="399" width="414" height="147"/>
+                                        <rect key="frame" x="0.0" y="419" width="414" height="157"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELP &amp; SUPPORT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1t-A3-rZD">
                                                 <rect key="frame" x="16" y="8" width="121" height="17"/>
@@ -300,16 +293,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELh-4w-zG1" userLabel="Support View">
-                                                <rect key="frame" x="0.0" y="35" width="414" height="44"/>
+                                                <rect key="frame" x="0.0" y="35" width="414" height="49"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="life-ring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBd-7g-qeu">
-                                                        <rect key="frame" x="0.0" y="8" width="54" height="28"/>
+                                                        <rect key="frame" x="0.0" y="8" width="54" height="33"/>
                                                         <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="28"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUPPORT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRe-kt-dur">
-                                                        <rect key="frame" x="54" y="10" width="344" height="24"/>
+                                                        <rect key="frame" x="54" y="12.5" width="344" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -327,16 +320,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FT8-BV-pwV" userLabel="About View">
-                                                <rect key="frame" x="0.0" y="87" width="414" height="44"/>
+                                                <rect key="frame" x="0.0" y="92" width="414" height="49"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57O-uL-fi5">
-                                                        <rect key="frame" x="0.0" y="8" width="54" height="28"/>
+                                                        <rect key="frame" x="0.0" y="8" width="54" height="33"/>
                                                         <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="28"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kD8-pM-iZU">
-                                                        <rect key="frame" x="54" y="10" width="344" height="24"/>
+                                                        <rect key="frame" x="54" y="12.5" width="344" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.67450980390000004" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -449,4 +442,7 @@
             <point key="canvasLocation" x="121.73913043478262" y="146.65178571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SwipeEmptyBack" width="5706" height="2460"/>
+    </resources>
 </document>

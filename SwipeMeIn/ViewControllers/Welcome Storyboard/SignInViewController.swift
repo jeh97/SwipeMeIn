@@ -25,8 +25,9 @@ class SignInViewController: UIViewController {
     @IBAction func signInButtonTouchUp(_ sender: Any) {
         // TODO: Authenticate user
         let storyboard = UIStoryboard(name: "BuySell", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
-        present(vc, animated: true, completion: nil)
+        let vc = storyboard.instantiateInitialViewController() as! UIViewController
+        // Replace the root view controller with the HomeViewController from the BuySell storybaord
+        UIApplication.shared.keyWindow?.rootViewController = vc
     }
     @IBAction func cancelButtonTouchUp(_ sender: Any) {
         navigationController?.popViewController(animated: true)

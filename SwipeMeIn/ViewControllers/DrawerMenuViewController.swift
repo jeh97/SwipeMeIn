@@ -8,8 +8,18 @@
 
 import UIKit
 
+protocol DrawerMenuDelegate {
+    func homeSelected()
+    func myProfileSelected()
+    func walletSelected()
+    func settingsSelected()
+    func supportSelected()
+    func aboutSelected()
+}
+
 class DrawerMenuViewController: UIViewController {
     // MARK: - Properties
+    var delegate:DrawerMenuDelegate?
 
     // MARK: - Outlets
     @IBOutlet var profilePicImageView: UIImageView!
@@ -71,7 +81,9 @@ class DrawerMenuViewController: UIViewController {
         // Segue to home viewcontroller when tapped
         if gestureRecognizer.state == .ended {
             // TODO: Segue to home
-            print("HOME")
+            self.dismiss(animated: true) {
+                self.delegate?.homeSelected()
+            }
         }
     }
 
@@ -81,8 +93,9 @@ class DrawerMenuViewController: UIViewController {
 
         // Segue to home viewcontroller when tapped
         if gestureRecognizer.state == .ended {
-            // TODO: Segue to home
-            print("MY PROFILE")
+            self.dismiss(animated: true) {
+                self.delegate?.myProfileSelected()
+            }
         }
     }
 
@@ -92,8 +105,9 @@ class DrawerMenuViewController: UIViewController {
 
         // Segue to home viewcontroller when tapped
         if gestureRecognizer.state == .ended {
-            // TODO: Segue to home
-            print("Wallet")
+            self.dismiss(animated: true) {
+                self.delegate?.walletSelected()
+            }
         }
     }
 
@@ -103,8 +117,9 @@ class DrawerMenuViewController: UIViewController {
 
         // Segue to home viewcontroller when tapped
         if gestureRecognizer.state == .ended {
-            // TODO: Segue to home
-            print("SETTINGS")
+            self.dismiss(animated: true) {
+                self.delegate?.settingsSelected()
+            }
         }
     }
 
@@ -114,8 +129,9 @@ class DrawerMenuViewController: UIViewController {
 
         // Segue to home viewcontroller when tapped
         if gestureRecognizer.state == .ended {
-            // TODO: Segue to home
-            print("SUPPORT")
+            self.dismiss(animated: true) {
+                self.delegate?.supportSelected()
+            }
         }
     }
 
@@ -125,8 +141,9 @@ class DrawerMenuViewController: UIViewController {
 
         // Segue to home viewcontroller when tapped
         if gestureRecognizer.state == .ended {
-            // TODO: Segue to home
-            print("ABOUT")
+            self.dismiss(animated: true) {
+                self.delegate?.aboutSelected()
+            }
         }
     }
 

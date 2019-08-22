@@ -14,10 +14,6 @@ class WelcomeViewController: UIViewController {
 
     // MARK: - Outlets
     @IBOutlet var logoImageView: UIImageView!
-    @IBOutlet var subtitleTextView: UITextView!
-    @IBOutlet var infoImageView: UIImageView!
-    @IBOutlet var infoTitleTextView: UITextView!
-    @IBOutlet var infoSubtitleTextView: UITextView!
     @IBOutlet var infoPageControl: UIPageControl!
     @IBOutlet var copyrightTextView: UITextView!
     @IBOutlet var scrollView: UIScrollView!

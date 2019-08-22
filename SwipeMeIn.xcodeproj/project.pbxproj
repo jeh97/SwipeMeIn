@@ -28,9 +28,13 @@
 		16DB369E22D38F2D00AD02C6 /* SwipeMeIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16DB369C22D38F2D00AD02C6 /* SwipeMeIn.xcdatamodeld */; };
 		16DB36A022D38F2F00AD02C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DB369F22D38F2F00AD02C6 /* Assets.xcassets */; };
 		16DB36A322D38F2F00AD02C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB36A122D38F2F00AD02C6 /* LaunchScreen.storyboard */; };
-		16DB36AD22D394B600AD02C6 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */; };
 		16DB36AF22D39C3200AD02C6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */; };
 		16DB36B322D39C4C00AD02C6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */; };
+		16E3F22E230C61D200E86825 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E3F22D230C61D200E86825 /* Settings.storyboard */; };
+		16E3F230230C620000E86825 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3F22F230C620000E86825 /* SettingsViewController.swift */; };
+		16E3F232230C620B00E86825 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3F231230C620B00E86825 /* SupportViewController.swift */; };
+		16E3F234230C621400E86825 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3F233230C621400E86825 /* AboutViewController.swift */; };
+		16E3F239230C627E00E86825 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3F238230C627E00E86825 /* WalletViewController.swift */; };
 		16E847EE22D6623D007D8CBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E847ED22D6623D007D8CBB /* HomeViewController.swift */; };
 		16E847F022D66251007D8CBB /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E847EF22D66251007D8CBB /* ScheduleViewController.swift */; };
 		16E847F222D66264007D8CBB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E847F122D66264007D8CBB /* ProfileViewController.swift */; };
@@ -67,9 +71,13 @@
 		16DB369F22D38F2F00AD02C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DB36A222D38F2F00AD02C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16DB36A422D38F2F00AD02C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
 		16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		16E3F22D230C61D200E86825 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		16E3F22F230C620000E86825 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		16E3F231230C620B00E86825 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		16E3F233230C621400E86825 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		16E3F238230C627E00E86825 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		16E847ED22D6623D007D8CBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		16E847EF22D66251007D8CBB /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		16E847F122D66264007D8CBB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -176,11 +184,11 @@
 			isa = PBXGroup;
 			children = (
 				16DB369922D38F2D00AD02C6 /* Main.storyboard */,
-				16DB36AC22D394B600AD02C6 /* WelcomeViewController.storyboard */,
 				16DB36A122D38F2F00AD02C6 /* LaunchScreen.storyboard */,
 				16DAB3FD22DF8FAF004A490B /* Welcome.storyboard */,
 				16DAB3FF22DF9081004A490B /* BuySell.storyboard */,
 				16237F6F22E8E3890078FDB3 /* DrawerMenu.storyboard */,
+				16E3F22D230C61D200E86825 /* Settings.storyboard */,
 				16237F7122E8F7060078FDB3 /* WelcomeSlide.xib */,
 				16777C3322F89D8100ED4698 /* SpinnerPopoverViewController.xib */,
 			);
@@ -190,17 +198,45 @@
 		16DB36AB22D3938700AD02C6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				16E3F236230C625E00E86825 /* Welcome Storyboard */,
+				16E3F237230C626700E86825 /* BuySell Storyboard */,
+				16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */,
+				16777C3222F89D8100ED4698 /* SpinnerPopoverViewController.swift */,
+				16E3F235230C621900E86825 /* Settings Storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		16E3F235230C621900E86825 /* Settings Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				16E3F22F230C620000E86825 /* SettingsViewController.swift */,
+				16E3F231230C620B00E86825 /* SupportViewController.swift */,
+				16E3F233230C621400E86825 /* AboutViewController.swift */,
+			);
+			path = "Settings Storyboard";
+			sourceTree = "<group>";
+		};
+		16E3F236230C625E00E86825 /* Welcome Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				16DB369722D38F2D00AD02C6 /* WelcomeViewController.swift */,
 				16DB36AE22D39C3200AD02C6 /* SignUpViewController.swift */,
 				1691111F230B1531004752F0 /* SignUpProfilePictureViewController.swift */,
 				16DB36B222D39C4C00AD02C6 /* SignInViewController.swift */,
+			);
+			path = "Welcome Storyboard";
+			sourceTree = "<group>";
+		};
+		16E3F237230C626700E86825 /* BuySell Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				16E847ED22D6623D007D8CBB /* HomeViewController.swift */,
 				16E847EF22D66251007D8CBB /* ScheduleViewController.swift */,
 				16E847F122D66264007D8CBB /* ProfileViewController.swift */,
-				16D0374722D7AB950013F666 /* DrawerMenuViewController.swift */,
-				16777C3222F89D8100ED4698 /* SpinnerPopoverViewController.swift */,
+				16E3F238230C627E00E86825 /* WalletViewController.swift */,
 			);
-			path = ViewControllers;
+			path = "BuySell Storyboard";
 			sourceTree = "<group>";
 		};
 		AB43C4EAE303F8745F92647D /* Frameworks */ = {
@@ -277,13 +313,13 @@
 				16E847F622D67311007D8CBB /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				16237F7222E8F7060078FDB3 /* WelcomeSlide.xib in Resources */,
 				16E847F722D67311007D8CBB /* Font Awesome 5 Free-Solid-900.otf in Resources */,
-				16DB36AD22D394B600AD02C6 /* WelcomeViewController.storyboard in Resources */,
 				16DB36A322D38F2F00AD02C6 /* LaunchScreen.storyboard in Resources */,
 				16DAB3FE22DF8FAF004A490B /* Welcome.storyboard in Resources */,
 				16DB36A022D38F2F00AD02C6 /* Assets.xcassets in Resources */,
 				16DB369B22D38F2D00AD02C6 /* Main.storyboard in Resources */,
 				16777C3522F89D8100ED4698 /* SpinnerPopoverViewController.xib in Resources */,
 				16237F7022E8E3890078FDB3 /* DrawerMenu.storyboard in Resources */,
+				16E3F22E230C61D200E86825 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +403,7 @@
 			files = (
 				16DB369822D38F2D00AD02C6 /* WelcomeViewController.swift in Sources */,
 				16DB369622D38F2D00AD02C6 /* AppDelegate.swift in Sources */,
+				16E3F239230C627E00E86825 /* WalletViewController.swift in Sources */,
 				16D0374822D7AB950013F666 /* DrawerMenuViewController.swift in Sources */,
 				16E847F222D66264007D8CBB /* ProfileViewController.swift in Sources */,
 				16DAB40222DF995B004A490B /* Users.swift in Sources */,
@@ -382,6 +419,9 @@
 				16237F7A22E8F9AC0078FDB3 /* Slide.swift in Sources */,
 				16777C3422F89D8100ED4698 /* SpinnerPopoverViewController.swift in Sources */,
 				16DB369E22D38F2D00AD02C6 /* SwipeMeIn.xcdatamodeld in Sources */,
+				16E3F232230C620B00E86825 /* SupportViewController.swift in Sources */,
+				16E3F234230C621400E86825 /* AboutViewController.swift in Sources */,
+				16E3F230230C620000E86825 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
